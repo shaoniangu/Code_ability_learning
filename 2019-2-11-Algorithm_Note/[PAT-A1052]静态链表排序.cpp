@@ -14,7 +14,7 @@ bool cmp(Node a, Node b)
 {
     if(a.flag==false || b.flag==false)
     {
-        return a.flag>b.flag;       // a,b的无效结点放大后面去
+        return a.flag>b.flag;       // 先按结点有无效排序，无效结点放到后面去
     }
     else
     {
